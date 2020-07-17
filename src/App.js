@@ -1,25 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { createFactory } from 'react';
 import './App.css';
-
+import Home from './com/About'
+import Contact from './com/contact'
+import Container from './container';
+import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      
+   <div>
+   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grenze+Gotisch&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet"></link>
+     <Container />
+    
+   </div>
+   </Router>
   );
 }
 
