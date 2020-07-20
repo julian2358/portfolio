@@ -189,3 +189,10 @@ html,body{
     text-align: center;
 }
 
+@media only screen and (max-width: 800px){
+    .cert-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
