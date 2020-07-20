@@ -71,15 +71,12 @@ html,body{
   
 }
 
-.info-background:hover{
-    opacity: 90%;
-}
 
 .side-text:hover{
     background-color: #4f4d4d;
 }
 
-#side-text:hover > .info-background { background-color: yellow; }
+
 
 .contact-container{
     background-color: black;
