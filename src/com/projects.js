@@ -13,6 +13,7 @@ export default class Projects extends React.Component{
     render(){
         return(
             <div className='body-container'>
+                 <div className='seperator'>
               <nav> 
                     <ul id='navlist'>
                         <a href='/'><li>Home</li></a>
@@ -20,10 +21,11 @@ export default class Projects extends React.Component{
                        <a href='/Contact'> <li>Contact</li></a>
                     </ul>
                 </nav>   
+                </div>
 
                 <div className='card-flex'>
                 <Card>
-    <Image src='/merge.png' wrapped ui={false} />
+    <img src='/merge.png' height='300' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Merge Sort Visualizer</Card.Header>
       <Card.Meta>
@@ -35,8 +37,8 @@ export default class Projects extends React.Component{
     </Card.Content>
     <Card.Content extra>
      <div class='button-box'>
-         <button className='btn-text'>Site</button>
-         <button className='btn-texting'>Repo</button>
+     <a href='https://unruffled-mcnulty-26eb09.netlify.app/'> <button className='btn-text'>Site</button></a>
+       <a href='https://github.com/julian2358/Sorting-Visualizer'>  <button className='btn-texting'>Repo</button> </a>
      </div>
     </Card.Content>
   </Card>
@@ -44,7 +46,7 @@ export default class Projects extends React.Component{
   {/*  */}
 
   <Card>
-    <Image src='gateway.png' wrapped ui={false} />
+    <img src='gateway.png' height='300' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Gateway Project: California</Card.Header>
       <Card.Meta>
@@ -56,8 +58,8 @@ export default class Projects extends React.Component{
     </Card.Content>
     <Card.Content extra>
     <div class='button-box'>
-         <button className='btn-text'>Site</button>
-         <button className='btn-texting'>Repo</button>
+         <a href='https://zen-lichterman-293eea.netlify.app/'><button className='btn-text'>Site</button></a>
+         <a href='https://github.com/julian2358/Gateway-California-Website'><button className='btn-texting'>Repo</button> </a>
      </div>
     </Card.Content>
   </Card>
@@ -65,7 +67,7 @@ export default class Projects extends React.Component{
 {/*  */}
 
 <Card>
-    <Image src='/speech.png' wrapped ui={false} />
+    <img src='/speech.png' height='300' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Guessing Game</Card.Header>
       <Card.Meta>
@@ -77,15 +79,15 @@ export default class Projects extends React.Component{
     </Card.Content>
     <Card.Content extra>
     <div class='button-box'>
-         <button className='btn-text'>Site</button>
-         <button className='btn-texting'>Repo</button>
+         <a href='https://nervous-johnson-4b3a62.netlify.app/'><button className='btn-text'>Site</button></a>
+         <a href='https://github.com/julian2358/Guessing-Game-Speech-Recognition'><button className='btn-texting'>Repo</button> </a>
      </div>
     </Card.Content>
   </Card>
 {/*  */}
 
 <Card>
-    <Image src='/discord.jpg' wrapped ui={false} />
+    <img src='/discord.jpg' height='300' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Discord Bot</Card.Header>
       <Card.Meta>
@@ -97,15 +99,15 @@ export default class Projects extends React.Component{
     </Card.Content>
     <Card.Content extra>
     <div class='button-box'>
-         <button className='btn-text'>Site</button>
-         <button className='btn-texting'>Repo</button>
+        <a href='https://discord.com/channels/729695434834051092/729695533282623558'> <button className='btn-text'>Site</button></a>
+        <a href='https://github.com/julian2358/nodejs-discord-bot'> <button className='btn-texting'>Repo</button> </a>
      </div>
     </Card.Content>
   </Card>
 {/*  */}
 
 <Card>
-    <Image src='/break.png' wrapped ui={false} />
+    <img src='/break.png' height='300' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Breaking Bad Cast</Card.Header>
       <Card.Meta>
@@ -117,15 +119,15 @@ export default class Projects extends React.Component{
     </Card.Content>
     <Card.Content extra>
     <div class='button-box'>
-         <button className='btn-text'>Site</button>
-         <button className='btn-texting'>Repo</button>
+        <a href='https://musing-hodgkin-f642a3.netlify.app/'> <button className='btn-text'>Site</button> </a>
+         <a href='https://github.com/julian2358/breakingbad-react'><button className='btn-texting'>Repo</button> </a>
      </div>
     </Card.Content>
   </Card>
 {/*  */}
 
 <Card>
-    <Image src='/civics.png' wrapped ui={false} />
+    <img src='/civics.png' height='300' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Local Representative Lookup</Card.Header>
       <Card.Meta>
@@ -137,14 +139,14 @@ export default class Projects extends React.Component{
     </Card.Content>
     <Card.Content extra>
     <div class='button-box'>
-         <button className='btn-text'>Site</button>
-         <button className='btn-texting'>Repo</button>
+         <a href=''><button className='btn-text'>Site</button> </a>
+       <a href='https://github.com/julian2358/Political-Finder'>  <button className='btn-texting'>Repo</button> </a>
      </div>
     </Card.Content>
   </Card>
 {/*  */}
 <Card>
-    <Image src='/car.png' wrapped ui={false} />
+    <img src='/car.png' height='300' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Luminosity</Card.Header>
       <Card.Meta>
@@ -156,14 +158,14 @@ export default class Projects extends React.Component{
     </Card.Content>
     <Card.Content extra>
     <div class='button-box'>
-         <button className='btn-text'>Site</button>
-         <button className='btn-texting'>Repo</button>
+        <a href='https://boring-goldstine-3a21bc.netlify.app/'> <button className='btn-text'>Site</button> </a>
+        <a href='https://github.com/julian2358/React-Econmerce'> <button className='btn-texting'>Repo</button> </a>
      </div>
     </Card.Content>
   </Card>
 {/*  */}
 <Card>
-    <Image src='/chat.png' wrapped ui={false} />
+    <img src='/chat.png' height='300' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Mongo Chat</Card.Header>
       <Card.Meta>
@@ -176,13 +178,13 @@ export default class Projects extends React.Component{
     <Card.Content extra>
     <div class='button-box'>
          <button className='btn-text'>Site</button>
-         <button className='btn-texting'>Repo</button>
+        <a href='https://github.com/julian2358/mongoChat'> <button className='btn-texting'>Repo</button></a>
      </div>
     </Card.Content>
   </Card>
 {/*  */}
 <Card>
-    <Image src='/tictactoe.png' wrapped ui={false} />
+    <img src='/tictactoe.png' height='300' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Tic Tac Toe</Card.Header>
       <Card.Meta>
@@ -194,14 +196,14 @@ export default class Projects extends React.Component{
     </Card.Content>
     <Card.Content extra>
     <div class='button-box'>
-         <button className='btn-text'>Site</button>
-         <button className='btn-texting'>Repo</button>
+       <a href='https://romantic-mcclintock-21b56d.netlify.app/'>  <button className='btn-text'>Site</button> </a>
+        <a href='https://github.com/julian2358/React-TicTacToe'> <button className='btn-texting'>Repo</button> </a>
      </div>
     </Card.Content>
   </Card>
 {/*  */}
 <Card>
-    <Image src='/god.png' wrapped ui={false} />
+    <img src='/god.png' height='300' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Github Cards</Card.Header>
       <Card.Meta>
@@ -213,8 +215,8 @@ export default class Projects extends React.Component{
     </Card.Content>
     <Card.Content extra>
     <div class='button-box'>
-         <button className='btn-text'>Site</button>
-         <button className='btn-texting'>Repo</button>
+     <a href='https://hungry-wright-84a455.netlify.app/'>   <button className='btn-text'>Site</button> </a>
+       <a href='https://github.com/julian2358/react-github-cards'>  <button className='btn-texting'>Repo</button> </a>
      </div>
     </Card.Content>
   </Card>

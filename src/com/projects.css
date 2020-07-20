@@ -1,4 +1,6 @@
-
+body, html{
+    background-color: white;
+}
 /* navbar */
 #navlist{
     list-style-type: none;
@@ -37,21 +39,28 @@ margin: auto;
 
 .body-container{
     background-color: white;
-    height: 2500px;
+    height: 3000px;
   
 }
 
 .btn-text{
-    background-color: #e8c607;
-    border: 1px solid #e8c607;
+    background-color: #6d9df7;
+    border: 1px solid #6d9df7;
     color: white;
     font-weight: bolder;
-    padding: 10px;
+    padding: 20px;
+    margin: 40px;
+    cursor: pointer;
 }
 .btn-texting{
     background-color: #e107e8;
     border: 1px solid #e107e8;
     color: white;
     font-weight: bolder;
-    padding: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.seperator{
+    text-align: center;
 }

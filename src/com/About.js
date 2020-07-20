@@ -14,8 +14,7 @@ export default class Main extends React.Component {
                     </ul>
                 </nav>
                 </div>
-                <h2>Last Updated: 07/16/2020
-                </h2>
+           
                 <div className='outside-container'>
                   
                     <div className='text-container'>
@@ -28,7 +27,7 @@ export default class Main extends React.Component {
                     </div>
                     <div className='img-container'>
                         <img id='profile' src='/0.jpeg'></img><br></br>
-                        <a href='#certi'> <button id='skills-btn'>Skills & Certifications</button> </a>
+                        
                     </div>
                 </div>
 
@@ -72,7 +71,9 @@ export default class Main extends React.Component {
                         </div>
                     </div>
                 </section>
+                
                 <Footer />
+                
             </div>
         )
     }

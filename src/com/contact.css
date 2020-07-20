@@ -42,8 +42,8 @@ html,body{
 .icon-flex{
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
-    margin-top: 300px;
+    margin-left: 200px;
+    margin-top: 0px;
 }
 
 #cont{
@@ -63,10 +63,10 @@ html,body{
 #big-side-text{
     text-align: center;
     line-height: 10rem;
-    font-size: 60px;
+    font-size: 100px;
     margin-top: 350px;
     color: white;
-    text-shadow: 1px -1px #d600ab ;
+    text-shadow: 1px -1px white ;
  
   
 }
@@ -84,4 +84,8 @@ html,body{
 .contact-container{
     background-color: black;
     color: white;
+}
+
+.seperator{
+    text-align: center;
 }

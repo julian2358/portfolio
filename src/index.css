@@ -15,7 +15,11 @@ body {
 
 #navlist a:hover{
 font-weight: bolder;
-color: red;
+color: black;
+border: 2px solid grey;
+background-color: grey;
+padding: 20px;
+border-radius: 20px;
 }
 
 code {

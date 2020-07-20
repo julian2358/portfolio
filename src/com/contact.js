@@ -9,6 +9,7 @@ import Footer from './footer';
         <div className='contact-container'>
 
             <div>
+            <div className='seperator'>
                    <nav> 
                     <ul id='navlist'>
                     <a href='/'><li>Home</li></a>
@@ -16,23 +17,23 @@ import Footer from './footer';
                        <a href='/Contact'> <li>Contact</li></a>
                     </ul>
                 </nav>
-
+            </div>
                 <div className='contact-container'>
                 <div className='info-background'>
                     <div id='cont'>
                         <h1>Julianreeves2355@gmail.com</h1>
-                        <h1>980-475-7907</h1>
+                       
                         
                         <div className='icon-flex'>
-                          <a href='https://github.com/julian2358'>  <img width='200' height='200'    src='/github_.png' /> </a>
-                        <a href='https://www.linkedin.com/in/julian-reeves-956415152/'>  <img width='200'   height='200'   src='/linked.png' /> </a>
+                          <a href='https://github.com/julian2358'>  <img width='100' height='100'    src='/github_.png' /> </a>
+                        <a href='https://www.linkedin.com/in/julian-reeves-956415152/'>  <img width='100'   height='100'   src='/linked.png' /> </a>
                         
-                          <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&to=julianreeves2355@gmail.com&su=SUBJECT&body=BODY&tf=1'>  <img width='200'   height='200'   src='/gmail.png' /> </a>
+                          <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&to=julianreeves2355@gmail.com&su=SUBJECT&body=BODY&tf=1'>  <img width='100'   height='100'   src='/gmail.png' /> </a>
                             </div>
                              </div>
                 </div>
                 <div className='side-text'>
-                <h1 id='big-side-text'>Shoot Me A Message !</h1>
+                <h1 id='big-side-text'>Shoot Me A Message</h1>
                 </div>
                 
                 </div>
