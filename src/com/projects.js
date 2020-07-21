@@ -46,20 +46,20 @@ export default class Projects extends React.Component{
   {/*  */}
 
   <Card>
-    <img src='gateway.png' height='300' wrapped ui={false} />
+    <img src='hotel.png' height='300' wrapped ui={false} />
     <Card.Content>
-      <Card.Header>Gateway Project: California</Card.Header>
+      <Card.Header>Hotel Project</Card.Header>
       <Card.Meta>
         <span className='date'>HTML, CSS</span>
       </Card.Meta>
       <Card.Description>
-        Into project for the Road to Hire Academy. Utiziling HTML and CSS after a month of working with the languages.
+        Hotel app built in semantic HTML and CSS. 
       </Card.Description>
     </Card.Content>
     <Card.Content extra>
     <div class='button-box'>
-         <a href='https://zen-lichterman-293eea.netlify.app/'><button className='btn-text'>Site</button></a>
-         <a href='https://github.com/julian2358/Gateway-California-Website'><button className='btn-texting'>Repo</button> </a>
+         <a href='https://affectionate-mestorf-936d4f.netlify.app/'><button className='btn-text'>Site</button></a>
+         <a href='https://github.com/julian2358/Hotel-Project'><button className='btn-texting'>Repo</button> </a>
      </div>
     </Card.Content>
   </Card>
